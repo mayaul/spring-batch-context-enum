@@ -1,0 +1,13 @@
+mayaul:
+  batch:
+    datasource:
+      type: com.zaxxer.hikari.HikariDataSource
+      driverClassName: org.mariadb.jdbc.Driver
+      jdbcUrl: jdbc:mysql://localhost:3306/spring_batch?useSSL=false
+      username: root
+      password: root
+
+
+spring:
+  batch:
+    initialize-schema: always
